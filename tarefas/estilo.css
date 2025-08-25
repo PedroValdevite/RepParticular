@@ -1,0 +1,36 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(77, 74, 74);
+}
+
+
+#menu a:hover{
+    background-color: red;    
+}
+#menu nav{
+    border: blue 1px solid;
+}
+
+#sobre {
+    background-color: aquamarine;
+}
+
+#sobre p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+#projetos {
+    font-size: large;
+    background-color: aquamarine;
+}
+
+.projeto-item:hover {
+    color:brown;
+    font-size: x-large;
+}
+
+#contato [type="text"]:focus{
+    border-color:red;
+    outline: 2em;
+}
